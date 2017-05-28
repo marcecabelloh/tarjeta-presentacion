@@ -1,0 +1,86 @@
+
+
+body{
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+
+.logo{
+	top: 30px;
+	position: absolute;
+	left: 60px;
+}
+
+/*fondo-plomo y plomo2 son necesarios para crear el fondo plomo de corte irregular que cubre a la imagen de fondo*/
+.fondo-plomo{
+	width: 100px;
+	height: 350px;
+	background: #3c3c3b;
+	position: absolute;
+	bottom: 263px;
+	margin-left: 400px;
+}
+
+.fondo-plomo2{
+	width: 100px;
+	height: 350px;
+	/*border bottom y border left permiten dar forma a algo*/
+	border-bottom: 350px solid #3c3c3b;
+	border-left: 100px solid transparent;
+	position: absolute;
+	bottom: 263px;
+	margin-left: 200px;
+}
+
+
+h1{
+	color: white;
+	top: 80px;
+	margin-left: 300px;
+	position: absolute;
+
+}
+
+h3{
+	color: yellow;
+	top: 158px;
+	margin-left: 300px;
+	position: absolute;	
+	font-size: 15px;
+}
+
+/* Las clases celular correo y direccion fueron creadas para posicionarlas por separado, sino quedaban juntas*/
+.celular{
+	color: white;
+	top: 200px;
+	margin-left: 270px;
+	padding-top: 20px;
+	position: absolute;	
+	font-size: 12px;
+}
+
+.correo{
+	color: white;
+	top: 220px;
+	margin-left: 270px;
+	padding-top: 20px;
+	position: absolute;	
+	font-size: 12px;
+}
+
+.direccion{
+	color: white;
+	top: 240px;
+	margin-left: 270px;
+	padding-top: 20px;
+	position: absolute;	
+	font-size: 12px;
+}
+
+/*caracteristicas para posicionar y darle el tamaño adecuado al logo que va abajo de la tarjeta*/
+.logo2{
+	bottom: 259px;
+	position: absolute;
+	left: 458px;
+}
+
